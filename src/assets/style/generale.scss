@@ -7,11 +7,11 @@
     height: 60px;
 }
 .ms-altezza-sezione{
-    height: 840px;
+    height: 950px;
 }
 .ms-button{
     color: white;
-    background-color: #52babb;
+    background-color: #058283;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -19,7 +19,7 @@
 .ms-button-transp{
     color: white;
     background-color: rgba(0, 0, 0, 0);
-    border: solid 1px #52babb;
+    border: solid 1px #058283;
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -28,4 +28,8 @@
 }
 .ms-padding{
     padding: 100px 0px;
+}
+.ms-testo-background{
+    padding: 5px 10px;
+    background-color: rgba(5, 82, 83, 0.4);
 }
