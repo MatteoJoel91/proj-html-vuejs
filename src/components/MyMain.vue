@@ -246,13 +246,12 @@
             <div class="container ms-padding">
                 <div class="row justify-content-center">
                     <div class="col ms-style">
-                        <h6 class="mb-4">OUR BUSINESS AREAS</h6>
-                        <span>Excellence in</span> <span class="ms-testo-background testo-2 rounded-3 ms-2">Services</span>
+                        <h6 class="mb-4">OUR EDITORIAL CONTENT</h6>
+                        <span>LASTEST</span> <span class="ms-testo-background testo-2 rounded-3 ms-2">NEWS</span>
                         <div class="d-flex align-items-center mb-4">
                            <div class="col-9">
-                                <h5 class="my-4">We are leaders in providing consultancy services with a set of cutting-edge 
-                                    technologies and a team of experienced and renowed professionals.
-                                    These are some options that you can hire.    
+                                <h5 class="my-4">
+                                    Every week we publish content about what is best in the business world    
                                 </h5> 
                             </div>
                             <div class="col-3 text-end">
