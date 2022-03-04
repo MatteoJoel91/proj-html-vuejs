@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+.ms-altezza{
+    height: 60px;
+}
+.ms-altezza-jumbo{
+    height: 840px;
+}
+.ms-button{
+    color: white;
+    background-color: #52babb;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.ms-button-transp{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px #52babb;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.ms-text{
+    font-size: 80px;
+}
