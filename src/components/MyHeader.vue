@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row ms-altezza-jumbo align-items-center justify-content-center text-center">
+                <div class="row ms-altezza-sezione align-items-center justify-content-center text-center">
                     <div class="col-7">
                         <h1 class="ms-text">Financial Risk</h1>
                         <h5 class="my-5 text-white-50">The right aoutcomes depend on continuous rigor in governance, models, 
@@ -61,7 +61,7 @@
             </div>
         </div>
     </header>
-    
+  
 </template>
 
 <script>
