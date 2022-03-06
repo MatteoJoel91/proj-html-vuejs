@@ -172,8 +172,8 @@
                                 <div class="col-8">
                                     <h4>David Cooper</h4>
                                     <h5>CTO & CO-FOUNDER</h5>
-                                    <i class="fa-brands fa-facebook-f icon-team"></i>
-                                    <i class="fa-brands fa-twitter icon-team"></i>
+                                    <i class="fa-brands fa-facebook-f icon-team-f me-2"></i>
+                                    <i class="fa-brands fa-twitter icon-team me-2"></i>
                                     <i class="fa-brands fa-linkedin-in icon-team"></i>
                                 </div>                              
                             </div>                      
@@ -186,8 +186,8 @@
                                 <div class="col-8">
                                     <h4>Oliver Jones</h4>
                                     <h5>CHIEF PROCUREMENT</h5>
-                                    <i class="fa-brands fa-facebook-f icon-team"></i>
-                                    <i class="fa-brands fa-twitter icon-team"></i>
+                                    <i class="fa-brands fa-facebook-f icon-team-f me-2"></i>
+                                    <i class="fa-brands fa-twitter icon-team me-2"></i>
                                     <i class="fa-brands fa-linkedin-in icon-team"></i>
                                 </div>                              
                             </div>
@@ -200,8 +200,8 @@
                                 <div class="col-8">
                                     <h4>Emma Lopez</h4>
                                     <h5>CHIEF MARKETING</h5>
-                                    <i class="fa-brands fa-facebook-f icon-team"></i>
-                                    <i class="fa-brands fa-twitter icon-team"></i>
+                                    <i class="fa-brands fa-facebook-f icon-team-f me-2"></i>
+                                    <i class="fa-brands fa-twitter icon-team me-2"></i>
                                     <i class="fa-brands fa-linkedin-in icon-team"></i>
                                 </div>                              
                             </div>                      
@@ -214,8 +214,8 @@
                                 <div class="col-8">
                                     <h4>T. Johnson</h4>
                                     <h5>CEO & PRESIDENT</h5>
-                                    <i class="fa-brands fa-facebook-f icon-team"></i>
-                                    <i class="fa-brands fa-twitter icon-team"></i>
+                                    <i class="fa-brands fa-facebook-f icon-team-f me-2"></i>
+                                    <i class="fa-brands fa-twitter icon-team me-2"></i>
                                     <i class="fa-brands fa-linkedin-in icon-team"></i>
                                 </div>                              
                             </div>                      
@@ -472,12 +472,18 @@ export default {
             font-size: 15px;
         }
 
+        .icon-team-f{
+            padding: 10px 13px;
+            background-color: #daeced;
+            color: #058283;
+            border-radius: 50%;
+        }
+
         .icon-team{
             padding: 10px 10px;
             background-color: #daeced;
             color: #058283;
             border-radius: 50%;
-
         }
 
         .box-paragrafo{
