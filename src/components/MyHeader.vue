@@ -30,7 +30,7 @@
             <div class="container">
                 <div class="row ms-altezza align-items-center pt-3">
                     <div class="col-6 logo align-items-center">
-                            <span class="logo-1">NEX</span> <span class="logo-2">GEN</span>
+                        <img class="logo-img-fluid mb-4" src="../assets/img/nexgen-logo.svg" alt="">
                     </div>
                     <div class="col-6 align-items-center text-end">
                         <nav>
@@ -74,25 +74,15 @@ export default {
     .ms-top-header{
         width: 100%;
         background-color: #21333e;
-        color: #bcbdbd;
-
-        
+        color: #bcbdbd;  
     }
 
     .ms-bot-header{
         background-image: url('../assets/img/bg-2.jpg');
         height: 900px;
         color: white;
-        .logo{
-            font-weight: bold;
-            font-size: 30px;
-
-           .logo-1{
-            color: #048383;
-            }
-            .logo-2{
-                color: white;
-            } 
+        .logo-img-fluid{
+            width: 25%;
         }
         ul{
             margin-bottom: 0px;
