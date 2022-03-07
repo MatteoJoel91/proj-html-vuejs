@@ -129,10 +129,24 @@ export default {
             background-color: $colorBlack2;
             margin: 12px 0px;
             padding: 40px;
+            cursor: pointer;
 
+            .fa-arrow-right{
+                padding: 5px;
+            }
+            
+            &:hover .icon-box-style{
+                    color: $colorWhite;
+                }
+            &:hover .fa-arrow-right{
+                background-color: $colorTurchese;
+                padding: 5px;
+                border-radius: 50%;
+            }
             .icon-box-style{
                 color: $colorTurchese;
                 font-size: 30px;
+
             }
         }
     }

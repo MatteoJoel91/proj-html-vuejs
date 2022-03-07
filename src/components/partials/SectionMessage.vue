@@ -89,6 +89,10 @@ export default {
             border: solid 1px $colorDarkTurchese;
             padding: 10px 20px;
             border-radius: 5px;
+
+            &:hover{
+                background-color: $colorDoubleLightGrey;
+            }
         }
 
         .icon-form{

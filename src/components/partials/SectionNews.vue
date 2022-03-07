@@ -21,30 +21,96 @@
                 <div class="col-4">
                     <div class="news-box">
                         <img class="img-fluid rounded-3" src="../../assets/img/news-1.jpg" alt="">
-                        <div class="text-img d-flex align-items-end rounded-3 p-4">
-                            <h3 class="text-center text-light">
-                                Increasing creativity is possible for everyone
-                            </h3>
+                        <div class="text-img rounded-3 p-4">
+                            <div class="row mt-3 hover-top">
+                                <div class="col-6 text-center">
+                                    <span class="text-light">
+                                        <i class="fa-regular fa-user me-1"></i>
+                                        Andrea Miller
+                                    </span> 
+                                </div>
+                                <div class="col-6 text-center">
+                                    <span class="text-light">
+                                        <i class="fa-regular fa-clock"></i>
+                                        2 Days Ago
+                                    </span> 
+                                </div>
+                            </div>
+                            <div class="row second-text-box m-auto align-items-end">
+                                <div class="col-12 text-center text-light">
+                                    <h3 >
+                                        Increasing creativity is possible for everyone
+                                    </h3>
+                                    <h5 class="mt-4 hover-bot">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </h5>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>  
                 </div>
-                <div class="col-4 news-box">
+                <div class="col-4">
                     <div class="news-box">
                         <img class="img-fluid rounded-3" src="../../assets/img/news-2.jpg" alt="">
-                        <div class="text-img d-flex align-items-end rounded-3 p-4">
-                            <h3 class="text-center text-light">
-                                Because market research is part of the business man
-                            </h3>
+                        <div class="text-img rounded-3 p-4">
+                            <div class="row mt-3 hover-top">
+                                <div class="col-6 text-center">
+                                    <span class="text-light">
+                                        <i class="fa-regular fa-user me-1"></i>
+                                        Andrea Miller
+                                    </span> 
+                                </div>
+                                <div class="col-6 text-center">
+                                    <span class="text-light">
+                                        <i class="fa-regular fa-clock"></i>
+                                        2 Days Ago
+                                    </span> 
+                                </div>
+                            </div>
+                            <div class="row second-text-box m-auto align-items-end">
+                                <div class="col-12 text-center text-light">
+                                    <h3 >
+                                        Because market research is part of the business plan
+                                    </h3>
+                                    <h5 class="mt-4 hover-bot">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </h5>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col-4 news-box">
+                <div class="col-4">
                     <div class="news-box">
                         <img class="img-fluid rounded-3" src="../../assets/img/news-3.jpg" alt="">
-                        <div class="text-img d-flex align-items-end rounded-3 p-4">
-                            <h3 class="text-center text-light">
-                                Working from home is now today
-                            </h3>
+                        <div class="text-img rounded-3 p-4">
+                            <div class="row mt-3 hover-top">
+                                <div class="col-6 text-center">
+                                    <span class="text-light">
+                                        <i class="fa-regular fa-user me-1"></i>
+                                        Andrea Miller
+                                    </span> 
+                                </div>
+                                <div class="col-6 text-center">
+                                    <span class="text-light">
+                                        <i class="fa-regular fa-clock"></i>
+                                        2 Days Ago
+                                    </span> 
+                                </div>
+                            </div>
+                            <div class="row second-text-box m-auto align-items-end">
+                                <div class="col-12 text-center text-light">
+                                    <h3 >
+                                        Working from home is now a trend
+                                    </h3>
+                                    <h5 class="mt-4 hover-bot">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </h5>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -60,30 +126,47 @@ export default {
 </script>
 
 <style lang="scss">
-
     @import "../../assets/style/variabili.scss";
-
     .sezione-news{
         width: 100%;
         min-height: 700px;
         background-color: $colorCream;
 
-        .ms-img-fluid{
-            width: 80%;
-            height: auto;
-        }
-
         .news-box{
             position: relative;
+
+            &:hover .img-fluid{
+               filter: blur(3px) !important; 
+            }
             
         }
-
         .text-img{
             width: 100%;
             height: 100%;
             position: absolute;
             background-color: $colorOpacity3;
             top: 0;
+
+            .hover-top{
+                visibility: hidden;
+            }
+
+            .hover-bot{
+                display: none;
+            }
+
+            &:hover .hover-top{
+                visibility: visible;
+            }
+
+            &:hover .hover-bot{
+                display: block;
+            }
         }
+        .second-text-box{
+                width: 100%;
+                height: 80%;
+            }
     }
+    
 </style>
