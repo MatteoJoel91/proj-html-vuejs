@@ -1,4 +1,5 @@
 <template>
+<!-- Sezione con player video statico -->
   <section class="container">
         <div class="row ms-padding ms-altezza-sezione justify-content-center text-center">
             <div class="col-10 ms-style">
@@ -8,6 +9,7 @@
                     and capabilities so that their arenas can generate sound information 
                     for better decision making.
                 </h5>
+                <!-- Player video con un effetto verdolino aggiunto con div class="img-hover -->
                 <div class="hover">
                     <img class="img-fluid test rounded-3" src="../../assets/img/video-1.jpg" alt="">
                     <div class="img-hover rounded-3 d-flex justify-content-center align-items-center">
@@ -41,6 +43,7 @@ export default {
         height: auto;
         color: $colorOpacity2;
         font-size: 100px;
+        cursor: pointer;
     }
     .hover{
         position: relative;

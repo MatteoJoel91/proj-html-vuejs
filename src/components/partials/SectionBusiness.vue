@@ -1,5 +1,8 @@
 <template>
-  <section class="ms-container-business">
+    <!-- Sezione business con 6 box -->
+    <section class="ms-container-business">
+
+        <!-- Info generali della sezione del sito + bottone 'SEE ALL' -->
         <div class="container ms-padding">
             <div class="row justify-content-center">
                 <div class="col ms-style text-light">
@@ -12,13 +15,16 @@
                                 These are some options that you can hire.    
                             </h5> 
                         </div>
+                        <!-- Bottone sulla destra -->
                         <div class="col-3 text-end">
                             <button class="ms-button-transp">SEE ALL</button>
                         </div> 
                     </div>        
                 </div>
             </div>
+            
             <div class="row text-light">
+                <!-- Box 1 -->
                 <div class="col-4">
                     <div class="box">
                         <div class="row">
@@ -33,6 +39,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Box 2 -->
                 <div class="col-4">
                     <div class="box">
                         <div class="row">
@@ -47,6 +55,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Box 3 -->
                 <div class="col-4">
                     <div class="box">
                         <div class="row">
@@ -61,6 +71,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Box 4 -->
                 <div class="col-4">
                     <div class="box">
                         <div class="row">
@@ -75,6 +87,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Box 5 -->
                 <div class="col-4">
                     <div class="box">
                         <div class="row">
@@ -89,6 +103,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Box 6 -->
                 <div class="col-4">
                     <div class="box">
                         <div class="row">
@@ -136,7 +152,7 @@ export default {
             }
             
             &:hover .icon-box-style{
-                    color: $colorWhite;
+                color: $colorWhite;
                 }
             &:hover .fa-arrow-right{
                 background-color: $colorTurchese;

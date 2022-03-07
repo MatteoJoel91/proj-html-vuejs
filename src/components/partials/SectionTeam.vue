@@ -1,13 +1,18 @@
 <template>
-  <section class="container ms-style ms-sezione-team">
+    <!-- Sezione team divisa in 2 colonne -->
+    <section class="container ms-style ms-sezione-team">
         <div class="row">
+            <!-- Colonna sinistra -->
             <div class="col-7">
+                <!-- Info della sezione + 4 box  -->
                 <h6 class="mb-4">WE LIKE WHAT WE DO</h6>
                 <span class="testo-2 rounded-3 me-2">Team</span> <span>of Experts</span>
                 <h5 class="my-5">Ethics and integrity are the bases on which our professionals build theyr 
                     careers. They are fundamentals that become daily attitudes.
                 </h5>
                 <div class="row">
+                    <!-- Tutti i box sono divisi in 2 colonne con a sinistra l'immagine ed a destra le varie info -->
+                    <!-- Box 1 -->
                     <div class="col-6 mb-5">
                         <div class="row">
                             <div class="col-4">
@@ -22,6 +27,8 @@
                             </div>                              
                         </div>                      
                     </div>
+
+                    <!-- Box 2 -->
                     <div class="col-6 mb-5">
                         <div class="row">
                             <div class="col-4">
@@ -36,6 +43,8 @@
                             </div>                              
                         </div>
                     </div>
+
+                    <!-- Box 3 -->
                     <div class="col-6">
                         <div class="row">
                             <div class="col-4">
@@ -50,6 +59,8 @@
                             </div>                              
                         </div>                      
                     </div>
+
+                    <!-- Box 4 -->
                     <div class="col-6">
                         <div class="row">
                             <div class="col-4">
@@ -66,6 +77,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Colonna destra -->
             <div class="col-5 d-flex align-items-end">
                 <div class="box-paragrafo rounded-3">
                     <h3>President Speech</h3>

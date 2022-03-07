@@ -1,5 +1,7 @@
 <template>
-  <section class="sezione-news">
+<!-- Sezione delle news con 3 box -->
+    <section class="sezione-news">
+        <!-- Info della sezione con bottone 'SEE ALL' -->
         <div class="container ms-padding">
             <div class="row justify-content-center">
                 <div class="col ms-style">
@@ -11,24 +13,33 @@
                                 Every week we publish content about what is best in the business world    
                             </h5> 
                         </div>
+                        <!-- Bottone -->
                         <div class="col-3 text-end">
                             <button class="ms-button">SEE ALL</button>
                         </div> 
                     </div>        
                 </div>
             </div>
+            <!-- Sezione dei 3 box con immagini e relativi effetti di hover -->
             <div class="row">
+                <!-- Box 1 -->
                 <div class="col-4">
                     <div class="news-box">
                         <img class="img-fluid rounded-3" src="../../assets/img/news-1.jpg" alt="">
                         <div class="text-img rounded-3 p-4">
+
+                            <!-- Creo una riga con 2 colonne che si vedrà solo in hover -->
                             <div class="row mt-3 hover-top">
+
+                                <!-- Colonna 1 -->
                                 <div class="col-6 text-center">
                                     <span class="text-light">
                                         <i class="fa-regular fa-user me-1"></i>
                                         Andrea Miller
                                     </span> 
                                 </div>
+
+                                <!-- colonna 2 -->
                                 <div class="col-6 text-center">
                                     <span class="text-light">
                                         <i class="fa-regular fa-clock"></i>
@@ -41,6 +52,8 @@
                                     <h3 >
                                         Increasing creativity is possible for everyone
                                     </h3>
+
+                                    <!-- h5 che si vedrà solo in hover -->
                                     <h5 class="mt-4 hover-bot">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     </h5>
@@ -50,17 +63,25 @@
                         </div>
                     </div>  
                 </div>
+
+                <!-- Box 2 -->
                 <div class="col-4">
                     <div class="news-box">
                         <img class="img-fluid rounded-3" src="../../assets/img/news-2.jpg" alt="">
                         <div class="text-img rounded-3 p-4">
+
+                            <!-- Creo una riga con 2 colonne che si vedrà solo in hover -->
                             <div class="row mt-3 hover-top">
+
+                                <!-- Colonna 1 -->
                                 <div class="col-6 text-center">
                                     <span class="text-light">
                                         <i class="fa-regular fa-user me-1"></i>
                                         Andrea Miller
                                     </span> 
                                 </div>
+
+                                <!-- Colonna 2 -->
                                 <div class="col-6 text-center">
                                     <span class="text-light">
                                         <i class="fa-regular fa-clock"></i>
@@ -73,6 +94,8 @@
                                     <h3 >
                                         Because market research is part of the business plan
                                     </h3>
+
+                                    <!-- h5 che si vedrà solo in hover -->
                                     <h5 class="mt-4 hover-bot">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     </h5>
@@ -82,17 +105,25 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Box 3 -->
                 <div class="col-4">
                     <div class="news-box">
                         <img class="img-fluid rounded-3" src="../../assets/img/news-3.jpg" alt="">
                         <div class="text-img rounded-3 p-4">
+
+                            <!-- Creo una riga con 2 colonne che si vedrà solo in hover -->
                             <div class="row mt-3 hover-top">
+
+                                <!-- Colonna 1 -->
                                 <div class="col-6 text-center">
                                     <span class="text-light">
                                         <i class="fa-regular fa-user me-1"></i>
                                         Andrea Miller
                                     </span> 
                                 </div>
+
+                                <!-- Colonna 2 -->
                                 <div class="col-6 text-center">
                                     <span class="text-light">
                                         <i class="fa-regular fa-clock"></i>
@@ -105,6 +136,8 @@
                                     <h3 >
                                         Working from home is now a trend
                                     </h3>
+
+                                    <!-- h5 che si vedrà solo in hover -->
                                     <h5 class="mt-4 hover-bot">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     </h5>
@@ -134,6 +167,7 @@ export default {
 
         .news-box{
             position: relative;
+            cursor: pointer;
 
             &:hover .img-fluid{
                filter: blur(3px) !important; 

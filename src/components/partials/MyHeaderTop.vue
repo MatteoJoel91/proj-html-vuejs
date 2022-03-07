@@ -2,12 +2,15 @@
   <div class="ms-top-header">
       <div class="container">
             <div class="row ms-altezza align-items-center">
+                <!-- Parte sinistra -->
                 <div class="col-6">
                     <i class="fa-solid fa-clock me-1"></i>
                     <span> 
                         Open Hours: Mon - Sat - 9:00-18:00
                     </span>
                 </div>
+
+                <!-- Parte destra -->
                 <div class="col-6 text-end">
                     <i class="fa-solid fa-phone me-1"></i>
                     <span>

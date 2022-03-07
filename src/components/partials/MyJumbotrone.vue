@@ -1,24 +1,30 @@
 <template>
-  <div class="ms-bot-header">
+    <!-- Background del jumbotrone inserito nella classe ms-bot-header -->
+    <div class="ms-bot-header">
         <div class="container">
-            <div class="row ms-altezza align-items-center pt-3">
-                <div class="col-6 logo align-items-center">
-                    <img class="logo-img-fluid mb-4" src="../../assets/img/nexgen-logo.svg" alt="">
-                </div>
-                <div class="col-6 align-items-center text-end">
-                    <nav>
+            <!-- Inizio Nav-bar -->
+            <nav>
+                <div class="row ms-altezza align-items-center pt-3">
+                    <!-- Parte sinistra della Nav con Logo -->
+                    <div class="col-6 logo align-items-center">
+                        <img class="logo-img-fluid mb-4" src="../../assets/img/nexgen-logo.svg" alt="">
+                    </div>
+                    <!-- Parte destra della Nav con menù -->
+                    <div class="col-6 align-items-center text-end">
                         <ul>
+                            <!-- lista creata dinamicamente -->
                             <li v-for="(link, index) in links" :key="index">
                                 <a class="p-3" :href="link.url">{{link.text}}</a>
                             </li>
-
                             <i class="fa-regular fa-user px-3"></i>
                             <button class="ms-button">GET IN TOUCH</button>
                         </ul>
-                    </nav>
-                </div> 
-            </div>
+                    </div> 
+                </div>
+            </nav>
+            <!-- Fine Nav-bar -->
         </div>
+        <!-- Parte centrale del jumbotrone con testo e bottoni -->
         <div class="container">
             <div class="row ms-altezza-sezione align-items-center justify-content-center text-center">
                 <div class="col-7">

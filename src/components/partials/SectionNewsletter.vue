@@ -1,7 +1,12 @@
 <template>
+    <!-- Sezione Newsletter con 1 riga e 2 colonne -->
     <section class="ms-sezione-newsletter d-flex align-items-center">
         <div class="container">
+
+            <!-- Creo la riga -->
             <div class="row ms-style text-light justify-content-center">
+
+                <!-- Colonna 1 -->
                 <div class="col-5">
                     <h6 class="mb-4">NEWSLETTER</h6>
                         <span class="ms-testo-background rounded-3 me-2">Know</span> <span>First</span>
@@ -12,6 +17,8 @@
                             </h5>
                     </div>
                 </div>
+
+                <!-- Colonna 2 con 2 input -->
                 <div class="col-5">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control style-input" id="floatingInput" placeholder="Name">

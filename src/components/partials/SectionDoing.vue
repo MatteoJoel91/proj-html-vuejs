@@ -1,5 +1,6 @@
 <template>
-  <section class="ms-container-doing">
+    <!-- Sezione doing con risultati -->
+    <section class="ms-container-doing">
         <div class="container">
             <div class="row ms-padding justify-content-center text-center">
                 <div class="col-10 ms-style">
